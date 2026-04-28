@@ -1,0 +1,61 @@
+.logo{
+    width: 20%;
+    max-width: 200%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: yellow;
+    color:white;
+}
+nav li{
+    display: inline-block;
+}
+.banner{
+  background-color: orange;
+  text-align: center;
+  padding: 40px;
+}
+
+.banner h2{
+  font-size: 36px;
+}
+
+.banner p{
+  font-size: 18px;
+}
+.row{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.row article{
+    flex: 1;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.row img{
+    width: 100%;
+    border-radius: 8px;
+}
+.row article:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer img{
+    width: 80px;
+}
